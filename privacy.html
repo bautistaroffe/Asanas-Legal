@@ -129,9 +129,9 @@
     <li><strong>Nombre.</strong></li>
     <li><strong>Correo electrónico.</strong></li>
     <li><strong>Contraseña.</strong> La gestiona nuestro proveedor de autenticación, que la protege con un hash irreversible. Nunca queda almacenada en texto legible y nosotros no tenemos acceso a ella.</li>
-    <li><strong>De forma opcional:</strong> edad, género y dificultad preferida para tus prácticas.</li>
+    <li><strong>De forma opcional:</strong> edad, género y nivel de experiencia para tus prácticas.</li>
   </ul>
-  <p>El nombre, el correo electrónico y la contraseña son <strong>obligatorios</strong>: sin ellos no podés crear una cuenta. La edad, el género y la dificultad preferida son <strong>opcionales</strong>: si no los completás, igual podés usar la app.</p>
+  <p>El nombre, el correo electrónico y la contraseña son <strong>obligatorios</strong>: sin ellos no podés crear una cuenta. La edad, el género y el nivel de experiencia son <strong>opcionales</strong>: si no los completás, igual podés usar la app.</p>
   <p>También guardamos la constancia de que aceptaste esta política y los Términos y condiciones al registrarte: qué versiones aceptaste y en qué fecha y hora.</p>
 </section>
 
@@ -144,6 +144,7 @@
     <li>Tu progreso: puntos de experiencia (XP), nivel, rachas, logros y trofeos.</li>
     <li>Tus preferencias de recordatorio y el token de notificaciones push de tu teléfono.</li>
     <li>El estado de tu suscripción: plan, estado, fecha de vencimiento y plataforma (iOS o Android).</li>
+    <li>Los avisos de compra, renovación y cancelación de tu suscripción que nos envía RevenueCat: el identificador interno de tu cuenta, el producto, el precio, la moneda, el país, la tienda, las fechas y los identificadores de la transacción. No incluyen datos de tarjeta ni de otros medios de pago.</li>
     <li>Los comentarios y las calificaciones que publiques sobre el contenido.</li>
     <li>El estado de tu cuenta (activa o suspendida).</li>
     <li>Datos técnicos de conexión, como la dirección IP, el modelo del teléfono y su sistema operativo. Quedan en los registros de acceso de nuestros proveedores y se usan para la seguridad y el funcionamiento del servicio, no para analítica ni publicidad.</li>
@@ -166,7 +167,7 @@
   <div class="destacado">
     <p><strong>Asanas no guarda nada de lo que capta tu cámara.</strong> La app te pide permiso para usarla, pero en ningún momento guarda, graba ni envía imágenes, videos ni capturas de pantalla tuyos, de ningún tipo, ni a nuestros servidores ni a terceros.</p>
   </div>
-  <p>La cámara se usa únicamente mientras practicás, para detectar tu postura. Esa detección se hace en tu propio teléfono: las imágenes se analizan en el momento, en el dispositivo, y no se conservan.</p>
+  <p>La cámara se usa únicamente mientras practicás, para detectar tu postura. Esa detección se hace en tu propio teléfono: las imágenes se analizan en el momento, en el dispositivo, y no se conservan. De cada práctica guardamos solo el resultado, por ejemplo el porcentaje de aciertos de cada postura, nunca imágenes ni videos.</p>
   <p>La app necesita tu permiso para acceder a la cámara. Podés revocarlo cuando quieras desde los ajustes del sistema operativo de tu teléfono. Si lo revocás, la corrección de postura por cámara deja de estar disponible, pero podés seguir usando el resto de la app.</p>
 </section>
 
@@ -176,7 +177,7 @@
     <li><strong>Cuenta:</strong> crear tu cuenta, identificarte, iniciar sesión y recuperar tu contraseña.</li>
     <li><strong>Prácticas y progreso:</strong> guardar tu historial, calcular tus puntajes, tu nivel, tus rachas y tus logros, y mostrarte tu avance.</li>
     <li><strong>Recordatorios:</strong> enviarte la notificación a la hora de práctica que elegiste.</li>
-    <li><strong>Suscripción:</strong> saber si tenés acceso premium y hasta cuándo.</li>
+    <li><strong>Suscripción:</strong> saber si tenés acceso premium y hasta cuándo, y llevar el registro de las compras para controlar las suscripciones y atender reclamos.</li>
     <li><strong>Comentarios y moderación:</strong> publicar tus comentarios y calificaciones, y mantener una comunidad respetuosa.</li>
     <li><strong>Soporte:</strong> responder tus consultas y resolver problemas de tu cuenta.</li>
   </ul>
@@ -189,7 +190,7 @@
   <ul>
     <li><strong>Supabase:</strong> alojamiento, base de datos, autenticación, almacenamiento y envío de los correos de la cuenta (confirmación del correo electrónico y recuperación de contraseña).</li>
     <li><strong>Railway:</strong> plataforma de alojamiento donde funciona el servidor de la app.</li>
-    <li><strong>RevenueCat:</strong> estado de tu suscripción.</li>
+    <li><strong>RevenueCat:</strong> estado de tu suscripción y avisos de compra, renovación y cancelación.</li>
     <li><strong>Apple y Google:</strong> cobro de la suscripción a través de App Store y Google Play, y entrega de las notificaciones push a tu teléfono.</li>
     <li><strong>Expo:</strong> envío de las notificaciones push y distribución de las actualizaciones de la app.</li>
   </ul>
@@ -206,7 +207,9 @@
 
 <section id="conservacion">
   <h2>10. Conservación y eliminación</h2>
-  <p>Conservamos tus datos mientras tu cuenta exista. Si la eliminás, <strong>borramos de forma definitiva</strong> los datos de Asanas asociados a ella. Nosotros no podemos recuperarlos.</p>
+  <p>Conservamos tus datos mientras tu cuenta exista. Si la eliminás, <strong>borramos de forma definitiva</strong> tu cuenta, tu perfil, tus prácticas y tu progreso, tus comentarios y calificaciones, tus recordatorios y el token de notificaciones. Nosotros no podemos recuperarlos.</p>
+  <p>Lo único que conservamos después de la eliminación es el registro de los avisos de compra de tu suscripción que nos envió RevenueCat (sección 4), con el identificador interno que tenía tu cuenta. Lo guardamos para controlar las suscripciones y atender reclamos, y no lo usamos para ningún otro fin.</p>
+  <p>Los registros técnicos de acceso de nuestros proveedores (sección 4) se eliminan según sus propios plazos.</p>
   <p>Los registros de compra que conservan Apple, Google y RevenueCat se rigen por las políticas de esos proveedores y están fuera de nuestro control.</p>
 </section>
 
@@ -226,8 +229,8 @@
   </ul>
   <h3>Cómo ejercerlos</h3>
   <ul>
-    <li>Podés editar tus datos de perfil desde la app, con el botón «Editar perfil».</li>
-    <li>Podés eliminar tu cuenta y todos tus datos desde la pantalla Configuración de la app, con la opción «Eliminar cuenta».</li>
+    <li>Podés editar tus datos de perfil desde la pantalla Perfil de la app, con el ícono de persona de arriba a la derecha («Editar perfil» para lectores de pantalla).</li>
+    <li>Podés eliminar tu cuenta desde la pantalla Configuración de la app, con la opción «Eliminar cuenta». En la <a href="#conservacion">sección 10</a> te contamos qué se borra y qué se conserva.</li>
     <li>También podés escribirnos a <a href="mailto:asanasdev26@gmail.com">asanasdev26@gmail.com</a> para cualquier pedido.</li>
   </ul>
   <h3>Autoridad de control</h3>
@@ -254,7 +257,7 @@
 <section id="cambios">
   <h2>14. Cambios a esta política</h2>
   <p>Cuando modifiquemos esta política, la publicaremos como una nueva versión, con su número y su fecha de vigencia, en esta misma dirección.</p>
-  <p>Si el cambio es sustancial, te avisaremos dentro de la app o por correo electrónico antes de que entre en vigencia.</p>
+  <p>Si el cambio es sustancial, te avisaremos por correo electrónico, a la dirección de tu cuenta, antes de que entre en vigencia.</p>
 </section>
 
 </main>
